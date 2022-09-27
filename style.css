@@ -1,1 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+header {
+  background-color: lightgreen;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.logo {
+  justify-self: start;
+}
+
+.logout {
+  justify-self: end;
+}
+
+main {
+  background-color: lightgoldenrodyellow;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+footer {
+  background-color: lightcyan;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 5% 10fr 5%;
+  height: 100vh;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
